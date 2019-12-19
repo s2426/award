@@ -31,7 +31,16 @@ var pdf = new jsPDF('p', 'pt', 'letter');
 pdf.canvas.height = 72 * 11;
 pdf.canvas.width = 72 * 8.5;
 pdf.fromHTML(document.body);
-pdf.save('test.pdf');
+var specialElementHandlers = {
+    '#editor': function (element, renderer) {
+        return true;
+    }
+};
+    doc.fromHTML($('#content').html(), 15, 15, {
+        'width': 170,
+            'elementHandlers': specialElementHandlers
+    });
+    doc.save('award.pdf');
 	//window.top.location.href = "https://pgone.sharepoint.com/sites/SurveyAward/SitePages/Home.aspx"; 
 </script>
 </body>
