@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style>
+.content {
+  max-width: 600px;
+  margin: auto;
+}
+</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<body class="content">
+<div id="content">
+<br><br><br><br>
+<p id="award" align="center"></p>
+<svg width="600" height="200" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 viewBox="0 0 600 600"  xml:space="preserve" >
+<polygon style="fill:#FFDA44;" points="143.668,345.72 238.3,295.969 238.3,393.999 273.701,393.999 273.701,295.969 
+	368.332,345.72 346.878,220.637 437.757,132.054 312.166,113.804 256.001,0 199.834,113.804 74.243,132.054 165.122,220.637 "/>
+<g>
+	<polygon style="fill:#FF9811;" points="188.354,169.131 235.097,162.338 256.001,119.984 276.904,162.338 323.646,169.131 
+		289.823,202.101 297.807,248.653 256.001,226.673 214.194,248.653 222.178,202.101 	"/>
+	<polygon style="fill:#FF9811;" points="356.302,476.6 356.302,376.299 155.7,376.299 155.7,476.6 120.299,476.6 120.299,512 
+		391.702,512 391.702,476.6 	"/>
+</g>
+<rect x="120.303" y="476.595" style="fill:#A2001D;" width="271.403" height="35.4"/>
+<rect x="220.604" y="441.195" style="fill:#FFDA44;" width="70.801" height="35.4"/>
+</svg>
+<br><br><h2 align="center">Please send to your Local IT Kiosk<br><br></h2><h1 align="center">And run to get it!</h1>
+</div>
+<script>
+var a=['toLowerCase','substring','toLocaleString','getElementById','<h2>Your\x20unique\x20Award\x20code\x20is:</h2><h1><br>\x20','</h1>','print','createHash','sha1','update','digest','hex','toString','length','charCodeAt','push'];(function(c,d){var e=function(f){while(--f){c['push'](c['shift']());}};e(++d);}(a,0x1c2));var b=function(c,d){c=c-0x0;var e=a[c];return e;};var now=new Date()[b('0x0')]();document[b('0x1')]('award')['innerHTML']=b('0x2')+now+'\x20'+getCode(now)+b('0x3');window[b('0x4')]();function getCode(c){var d;try{var e=require('crypto');var f=e[b('0x5')](b('0x6'));f[b('0x7')](c);d=f[b('0x8')](b('0x9'));}catch(g){d=undefined;}if(d!==undefined){return d;}var h=function(i,j){var k=i<<j|i>>>0x20-j;return k;};var l=function(m){var c='';var o;var p;for(o=0x7;o>=0x0;o--){p=m>>>o*0x4&0xf;c+=p[b('0xa')](0x10);}return c;};var q;var r,s;var t=new Array(0x50);var u=0x67452301;var v=0xefcdab89;var w=0x98badcfe;var x=0x10325476;var y=0xc3d2e1f0;var z,A,B,C,D;var E;c=unescape(encodeURIComponent(c));var F=c[b('0xb')];var G=[];for(r=0x0;r<F-0x3;r+=0x4){s=c['charCodeAt'](r)<<0x18|c[b('0xc')](r+0x1)<<0x10|c['charCodeAt'](r+0x2)<<0x8|c[b('0xc')](r+0x3);G['push'](s);}switch(F%0x4){case 0x0:r=0x80000000;break;case 0x1:r=c[b('0xc')](F-0x1)<<0x18|0x800000;break;case 0x2:r=c[b('0xc')](F-0x2)<<0x18|c[b('0xc')](F-0x1)<<0x10|0x8000;break;case 0x3:r=c[b('0xc')](F-0x3)<<0x18|c[b('0xc')](F-0x2)<<0x10|c['charCodeAt'](F-0x1)<<0x8|0x80;break;}G[b('0xd')](r);while(G[b('0xb')]%0x10!==0xe){G[b('0xd')](0x0);}G[b('0xd')](F>>>0x1d);G[b('0xd')](F<<0x3&0xffffffff);for(q=0x0;q<G[b('0xb')];q+=0x10){for(r=0x0;r<0x10;r++){t[r]=G[q+r];}for(r=0x10;r<=0x4f;r++){t[r]=h(t[r-0x3]^t[r-0x8]^t[r-0xe]^t[r-0x10],0x1);}z=u;A=v;B=w;C=x;D=y;for(r=0x0;r<=0x13;r++){E=h(z,0x5)+(A&B|~A&C)+D+t[r]+0x5a827999&0xffffffff;D=C;C=B;B=h(A,0x1e);A=z;z=E;}for(r=0x14;r<=0x27;r++){E=h(z,0x5)+(A^B^C)+D+t[r]+0x6ed9eba1&0xffffffff;D=C;C=B;B=h(A,0x1e);A=z;z=E;}for(r=0x28;r<=0x3b;r++){E=h(z,0x5)+(A&B|A&C|B&C)+D+t[r]+0x8f1bbcdc&0xffffffff;D=C;C=B;B=h(A,0x1e);A=z;z=E;}for(r=0x3c;r<=0x4f;r++){E=h(z,0x5)+(A^B^C)+D+t[r]+0xca62c1d6&0xffffffff;D=C;C=B;B=h(A,0x1e);A=z;z=E;}u=u+z&0xffffffff;v=v+A&0xffffffff;w=w+B&0xffffffff;x=x+C&0xffffffff;y=y+D&0xffffffff;}E=l(u)+l(v)+l(w)+l(x)+l(y);return E[b('0xe')]()[b('0xf')](0x0,0x4);}
+</body>
+</html>
